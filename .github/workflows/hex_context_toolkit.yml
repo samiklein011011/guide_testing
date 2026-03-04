@@ -19,6 +19,7 @@ jobs:
       with:
         config_file: hex_context.config.json
         token: ${{ secrets.HEX_API_TOKEN }} # Set this in your repository settings
+        hex_url: https://rc.hex.tech
 
         # optional configuration
         # publish_guides: true # publish guides automatically (default true)
